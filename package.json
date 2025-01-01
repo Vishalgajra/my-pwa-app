@@ -5,10 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "deploy": "ng build --configuration=production --base-href=https://Vishalgajra.github.io/my-pwa-app/ && npx angular-cli-ghpages --dir=dist/my-pwa-app"
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
